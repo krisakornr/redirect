@@ -21,3 +21,4 @@ serve((req) => {
       headers: { Location: redirectUrl },
     });
   }
+}
