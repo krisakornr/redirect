@@ -21,5 +21,3 @@ serve((req) => {
       headers: { Location: redirectUrl },
     });
   }
-
-  // Return an erro
