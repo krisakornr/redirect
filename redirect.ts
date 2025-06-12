@@ -21,4 +21,7 @@ serve((req) => {
       headers: { Location: redirectUrl },
     });
   }
-}
+
+  // Fallback response
+  return new Response("Invalid or missing T parameter", { status: 400 });
+});
