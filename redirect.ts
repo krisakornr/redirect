@@ -1,8 +1,8 @@
 import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 
 const REDIRECT_MAP: Record<string, string> = {
-  "11111111": "https://www.averydennison.com",
-  "22222222": "https://www.nestle-family.com/en/brand/nan-3",
+  "ADADADAD": "https://www.averydennison.com",
+  "846E37AB": "https://www.nestlefamilynes.fi/nan-pro-3",
 };
 
 serve((req) => {
@@ -23,5 +23,5 @@ serve((req) => {
   }
 
   // Fallback response
-  return new Response("Invalid or missing T parameter", { status: 400 });
+  return new Response("Invalid or missing tt parameter", { status: 400 });
 });
